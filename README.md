@@ -143,7 +143,7 @@ Before you start, ensure you have the following:
 
 ## Usage
 
-1. **Initialize Terraform:**
+1. **Initialize & Plan & Apply Terraform:**
    ```bash
    terraform init
    terraform plan
