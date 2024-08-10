@@ -80,15 +80,20 @@ markdown
 This Terraform configuration sets up a scalable, resilient web server infrastructure in AWS. The configuration creates an Auto Scaling Group (ASG) of EC2 instances, ensuring that the web servers can automatically scale in and out based on demand. 
 
 ## Table of Contents
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Prerequisites](#prerequisites)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Outputs](#outputs)
-- [Cleanup](#cleanup)
-- [Contributing](#contributing)
-- [License](#license)
+- [Terraform Configuration for Web Servers in Auto Scaling Group](#terraform-configuration-for-web-servers-in-auto-scaling-group)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Architecture](#architecture)
+  - [Prerequisites](#prerequisites)
+  - [Configuration](#configuration)
+  - [Usage](#usage)
+- [Terraform Configuration for Web Servers in Auto Scaling Group](#terraform-configuration-for-web-servers-in-auto-scaling-group-1)
+  - [Table of Contents](#table-of-contents-1)
+  - [Overview](#overview-1)
+  - [Architecture](#architecture-1)
+  - [Prerequisites](#prerequisites-1)
+  - [Configuration](#configuration-1)
+  - [Usage](#usage-1)
 
 ## Overview
 
@@ -144,11 +149,12 @@ Before you start, ensure you have the following:
    terraform plan
 
 Apply the configuration:
+```bash
 terraform apply
 
 Access the Web Servers:
 
-    Once the apply is complete, you can access your web servers through the Load Balancer's DNS name (if configured) or directly via the public IPs of the instances.
+    Once the apply is complete, you can access your web servers through the Load Balancer's DNS name or directly via the public IPs of the instances.
 
 
 **License**
