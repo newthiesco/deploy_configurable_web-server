@@ -146,15 +146,16 @@ Before you start, ensure you have the following:
 1. **Initialize Terraform:**
    ```bash
    terraform init
+   ```bash
    terraform plan
 
-Apply the configuration:
-```bash
+2. **Apply the configuration:**
+ ```bash
 terraform apply
 
-Access the Web Servers:
+3. Access the Web Servers:
 
-    Once the apply is complete, you can access your web servers through the Load Balancer's DNS name or directly via the public IPs of the instances.
+Once the apply is complete, you can access your web servers through the Load Balancer's DNS name or directly via the public IPs of the instances.
 
 
 **License**
